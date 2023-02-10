@@ -1,0 +1,80 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Oswald', sans-serif;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        background-image: url(./dubai.jpg); 
+    }
+    h1{
+        color:rgb(41, 41, 41);
+        font-size:40px;
+        text-align: center;
+    }
+    input{
+        border: none;
+        outline: none;
+        border-radius: 45px;
+        background-color: rgb(255, 255, 255);
+        width:200px;
+        height:30px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .lupa{
+        height:13px;
+        margin-bottom: 0px;
+    }
+    button{
+        border:none;
+        outline: none;
+        padding: 10px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: rgb(247, 247, 247);
+    }
+    .caixa-media{
+        margin-top: 15px;
+    }
+    h2{
+        color: black;
+    }
+    .caixa-maior{
+        background-color: rgb(212, 211, 211);
+        opacity: 0.8;
+        width: 95%;
+        max-width: 420px;
+        border-radius: 12px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    h4{
+        margin: 10px;
+        margin-left: 100px;
+    }
+    .temp{
+        margin:10px;
+        margin-left: 100px;
+    }
+    .descricao{
+        margin:10px;
+        margin-left: 100px;
+        text-transform: capitalize; /* deixa a 1º letra maiuscula */
+
+    }
+    .umidade{
+        margin:10px;
+        margin-left: 100px;
+    }
+    .selecao-cidade{
+        width: 150px;
+        margin-left: 100px;
+    }
